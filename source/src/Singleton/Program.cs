@@ -19,19 +19,6 @@
             Console.ReadLine();
             ThreadingPrintSpooler.Instance.Stop();
             Console.ReadLine();
-
-            XXX().GetAwaiter().GetResult();
-        }
-
-        public static async Task XXX()
-        {
-        }
-
-        public class Customer
-        {
-            public void Dispose()
-            {
-            }
         }
     }
 }
