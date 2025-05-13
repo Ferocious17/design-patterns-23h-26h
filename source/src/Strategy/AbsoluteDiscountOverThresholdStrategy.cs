@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns;
+﻿namespace DesignPatterns.Strategy;
 public class AbsoluteDiscountOverThresholdStrategy : ISalePricingStrategy
 {
     private readonly decimal _threshold;

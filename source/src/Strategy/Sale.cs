@@ -1,5 +1,4 @@
-﻿namespace DesignPatterns;
-
+﻿namespace DesignPatterns.Strategy;
 public class Sale
 {
     private readonly decimal _amount;

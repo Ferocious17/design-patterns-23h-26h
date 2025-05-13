@@ -30,8 +30,8 @@ public class TimeDependentDiscountPricingStrategy : ISalePricingStrategy
     public decimal GetTotalIncludingDiscount(Sale sale)
     {
         //var dateTime = _getDateTime();
-        var dateTime = _systemTime.Now;
-        //var dateTime = _timeProvider.GetLocalNow();
+        //var dateTime = _systemTime.Now;
+        var dateTime = _timeProvider.GetLocalNow();
 
 
         if (dateTime.Hour < 12)

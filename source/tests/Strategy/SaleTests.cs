@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Tests;
+﻿namespace DesignPatterns.Tests.Strategy;
 
 using DesignPatterns.Strategy;
 
